@@ -3,8 +3,59 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Reference", "01 Reference", "{FBE5E848-246D-4785-91FD-7657B85265FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Commons", "02 Commons", "{5764866C-B4CC-46B5-BB55-A317E0A2AD3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Interface", "04 Interface", "{503FA6B0-37AC-455B-AFA9-963378662682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{58B66206-F17B-4B6B-A9CA-438CE5444150}"
+	ProjectSection(SolutionItems) = preProject
+		01 Reference\Common\log4net.dll = 01 Reference\Common\log4net.dll
+		01 Reference\Common\Newtonsoft.Json.dll = 01 Reference\Common\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterLib", "EnterLib", "{EDAF9D96-B18B-43A7-B1A4-33B2A269490D}"
+	ProjectSection(SolutionItems) = preProject
+		01 Reference\EnterLib\Microsoft.Office.Interop.Excel.dll = 01 Reference\EnterLib\Microsoft.Office.Interop.Excel.dll
+		01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Caching.dll = 01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+		01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Common.dll = 01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Data.dll = 01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Data.dll
+		01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll = 01 Reference\EnterLib\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll
+		01 Reference\EnterLib\Microsoft.Practices.ServiceLocation.dll = 01 Reference\EnterLib\Microsoft.Practices.ServiceLocation.dll
+		01 Reference\EnterLib\Microsoft.Practices.Unity.Configuration.dll = 01 Reference\EnterLib\Microsoft.Practices.Unity.Configuration.dll
+		01 Reference\EnterLib\Microsoft.Practices.Unity.dll = 01 Reference\EnterLib\Microsoft.Practices.Unity.dll
+		01 Reference\EnterLib\Microsoft.Practices.Unity.Interception.Configuration.dll = 01 Reference\EnterLib\Microsoft.Practices.Unity.Interception.Configuration.dll
+		01 Reference\EnterLib\Microsoft.Practices.Unity.Interception.dll = 01 Reference\EnterLib\Microsoft.Practices.Unity.Interception.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{9F7F5236-59A4-46BC-B3B0-46E485C25B29}"
+	ProjectSection(SolutionItems) = preProject
+		01 Reference\IOC\StructureMap.dll = 01 Reference\IOC\StructureMap.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memcached", "Memcached", "{B5CDD1FB-73A8-4B86-B535-3E0051C0405B}"
+	ProjectSection(SolutionItems) = preProject
+		01 Reference\Memcached\Enyim.Caching.dll = 01 Reference\Memcached\Enyim.Caching.dll
+		01 Reference\Memcached\Memcached.ClientLibrary.dll = 01 Reference\Memcached\Memcached.ClientLibrary.dll
+		01 Reference\Memcached\MemcachedProviders.dll = 01 Reference\Memcached\MemcachedProviders.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MySql", "MySql", "{2CFF6B01-2CC4-4735-9425-015573962A88}"
+	ProjectSection(SolutionItems) = preProject
+		01 Reference\MySql\FastReflectionLib.dll = 01 Reference\MySql\FastReflectionLib.dll
+		01 Reference\MySql\MySql.Data.dll = 01 Reference\MySql\MySql.Data.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58B66206-F17B-4B6B-A9CA-438CE5444150} = {FBE5E848-246D-4785-91FD-7657B85265FF}
+		{EDAF9D96-B18B-43A7-B1A4-33B2A269490D} = {FBE5E848-246D-4785-91FD-7657B85265FF}
+		{9F7F5236-59A4-46BC-B3B0-46E485C25B29} = {FBE5E848-246D-4785-91FD-7657B85265FF}
+		{B5CDD1FB-73A8-4B86-B535-3E0051C0405B} = {FBE5E848-246D-4785-91FD-7657B85265FF}
+		{2CFF6B01-2CC4-4735-9425-015573962A88} = {FBE5E848-246D-4785-91FD-7657B85265FF}
 	EndGlobalSection
 EndGlobal
